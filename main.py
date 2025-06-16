@@ -19,7 +19,7 @@ app.add_middleware(
 )
 
 # Load the TorchScript model
-model = torch.jit.load("/kaggle/input/final_model/pytorch/default/1/model_final.pt")
+model = torch.jit.load("model_final.pt")
 device = torch.device("cpu")  # Force to CPU
 model.to(device)
 model.eval()
