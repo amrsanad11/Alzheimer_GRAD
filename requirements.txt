@@ -1,10 +1,11 @@
-tensorflow==2.16.1
+-f https://download.pytorch.org/whl/torch_stable.html
+tensorflow-cpu==2.16.1
 tensorflow-model-optimization==0.8.0
+torch==2.0.1+cpu
+torchvision
+torchaudio
 numpy
 fastapi
 uvicorn[standard]
-torch
-torchvision
-torchaudio
 pydantic
 pillow
