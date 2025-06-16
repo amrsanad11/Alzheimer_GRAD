@@ -1,7 +1,6 @@
--f https://download.pytorch.org/whl/torch_stable.html
 tensorflow-cpu==2.16.1
 tensorflow-model-optimization==0.8.0
-torch==2.0.1+cpu
+torch==2.3.1
 torchvision
 torchaudio
 numpy
