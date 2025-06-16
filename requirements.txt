@@ -6,3 +6,6 @@ uvicorn[standard]
 torchvision
 torchaudio
 torch
+pydantic 
+PIL
+io
