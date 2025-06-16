@@ -3,9 +3,8 @@ tensorflow-model-optimization==0.8.0
 numpy
 fastapi
 uvicorn[standard]
+torch
 torchvision
 torchaudio
-torch
-pydantic 
-PIL
-io
+pydantic
+pillow
