@@ -2,4 +2,6 @@ tensorflow==2.16.1
 tensorflow-model-optimization==0.8.0
 numpy
 fastapi
+uvicorn[standard]
+
 
